@@ -6,7 +6,8 @@ to use a PlusPack with nextpi to get this working
 
 pi0 exe needs to be compiled with PureBasic
 
-the NEX was built with NextBuild but contains an asm loop 
+the NEX was built with NextBuild but contains an asm loop that can be 
+assembled with sjasmplus
 
 Run the NEX on your Next, then ./loader2 on the pi0, it will transmit
 a scr file from the pi0 to the Next's RAM which is pointing to ULA
